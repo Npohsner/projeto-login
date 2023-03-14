@@ -11,6 +11,7 @@ Lilás: #5f2c82
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    
 }
 
 body, html {
@@ -51,5 +52,62 @@ section#login > div#imagem {
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+    padding: 9px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+div.campo {
+    background-color: #5f2c82;
+    height: 40px;
+    border-radius: 5px;
+    margin: 3px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(8, 180, 123);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(2, 82, 55);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(2, 82, 55);
+    
+}
+
+a {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 2px;
+    background-color: white;
+    color: rgb(2, 82, 55);
+    border: 1px solid rgb(2, 82, 55);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(17, 218, 151);
 }
