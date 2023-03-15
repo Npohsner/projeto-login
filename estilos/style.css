@@ -109,7 +109,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: rgb(2, 82, 55);
+    background-color: #960202;
     
 }
 
@@ -129,5 +129,6 @@ a {
 }
 
 a:hover {
-    background-color: rgb(17, 218, 151);
+    background-color: #960202;
+    color: white;
 }
